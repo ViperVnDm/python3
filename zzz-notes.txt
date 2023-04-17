@@ -1,0 +1,16 @@
+#Basic Scalars
+
+int 
+--unlimited precision 
+-hex -0x110
+convert int(3.5)
+
+64 bit float 
+53 bits of binary precision (15-16 digits)
+Any literal is a float 
+IE 3e8
+INT plus a float converts to an float
+
+null 
+
+boolean logical values
