@@ -6,6 +6,30 @@ Deliminated by ' or ", but you have to be consistent.
 multiline 
 string """
 
+#raw string (avoid backslash problems)
+path = r'C:\Users\Merlin\Documents\Spells'
+print(path)
+
+Default sourcode is UTF8
+
+#Lists
+#Lists are mutable 
+[1, 9, 8]
+['apple', 7, 'pear']
+#empty Lists
+b = []
+#append a Lists
+b.append(1.618)
+
+#dict are fundamental to python, other language call map or array
+#contain key value pairs
+#create a dict
+d = {'alice': '878-8728-922', 'bob': '256-5262-124', 'eve': '198-2321-787'}
+
+#Retreive alice info
+d['alice']
+#Update values
+d['charles'] = '878-8728-933'
 
 #Basic Scalars
 
